@@ -18,5 +18,5 @@ We can optimize the training process of deep architectures by having residual co
 
 ### 2) Can you design a learnable positional encoding method using pytorch? (Create dummy dataset)
 
-See the python notebook above
+See the Python notebook: **positional_encoding.ipynb**
 
