@@ -1,6 +1,6 @@
 # Positional Encodings
 
-### Q1) Suppose that we design a deep architecture to represent a sequence by stacking self-attention layers with positional encoding. What could be issues?
+### 1) Suppose that we design a deep architecture to represent a sequence by stacking self-attention layers with positional encoding. What could be issues?
 
 
 Stacking self-attention layers with positional encoding can cause some issues during training because of its deep architecture and as well as fixed sinusoidal positional encodings. 
@@ -16,7 +16,7 @@ Stacking self-attention layers with positional encoding can cause some issues du
 We can optimize the training process of deep architectures by having residual connections, layer normalizations, adaptive learning rate, gradient clipping, and learnable positional encodings etc.
 
 
-### Q2) Can you design a learnable positional encoding method using pytorch? (Create dummy dataset)
+### 2) Can you design a learnable positional encoding method using pytorch? (Create dummy dataset)
 
 See the python notebook above
 
